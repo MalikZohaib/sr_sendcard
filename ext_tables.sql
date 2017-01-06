@@ -7,7 +7,7 @@ CREATE TABLE tx_srsendcard_domain_model_card (
 	deleted tinyint(4) unsigned DEFAULT '0' NOT NULL,
 	hidden tinyint(4) unsigned DEFAULT '0' NOT NULL,
 	starttime int(11) unsigned DEFAULT '0' NOT NULL,
-	endtime int(11) unsigned DEFAULT '0' NOT NULL
+	endtime int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(10) unsigned DEFAULT '0' NOT NULL,
 	sys_language_uid int(11) DEFAULT '0' NOT NULL,
 	l18n_parent int(11) DEFAULT '0' NOT NULL,
@@ -84,7 +84,7 @@ CREATE TABLE tx_srsendcard_card (
 	deleted tinyint(4) unsigned DEFAULT '0' NOT NULL,
 	hidden tinyint(4) unsigned DEFAULT '0' NOT NULL,
 	starttime int(11) unsigned DEFAULT '0' NOT NULL,
-	endtime int(11) unsigned DEFAULT '0' NOT NULL
+	endtime int(11) unsigned DEFAULT '0' NOT NULL,
 	sorting int(10) unsigned DEFAULT '0' NOT NULL,
 	sys_language_uid int(11) DEFAULT '0' NOT NULL,
 	l18n_parent int(11) DEFAULT '0' NOT NULL,

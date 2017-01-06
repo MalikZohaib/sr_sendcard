@@ -1,3 +1,7 @@
+2017-01-05  Stanislas Rolland  <typo3(arobas)sjbr.ca>
+
+	* Resolves #79177: Missing comas in sql tables definition
+
 2016-03-09  Stanislas Rolland  <typo3(arobas)sjbr.ca>
 
 	* Correction to deprecated syntax in TCA
